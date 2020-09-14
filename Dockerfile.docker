@@ -32,9 +32,11 @@ RUN dnf -y update && dnf upgrade --refresh \
        git \
        cppcheck \
        cargo \
-       ruby-devel \
-       rubygem-rake \
-       rubygem-bundle
+       ruby-devel
+
+RUN gem install \
+        bundler \
+        rake
 
 RUN pip3 -q install --upgrade pip \
     && python3 -m pip -q install \
