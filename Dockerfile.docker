@@ -32,7 +32,8 @@ RUN dnf -y update && dnf upgrade --refresh \
        git \
        cppcheck \
        cargo \
-       ruby-devel
+       ruby-devel \
+    && dnf -y clean all
 
 RUN gem install \
         bundler \
