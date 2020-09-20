@@ -30,6 +30,7 @@ RUN dnf -y update && dnf upgrade --refresh \
        mesa-libGLU \
        java-latest-openjdk-devel \
        git \
+       ccache \
        cppcheck \
        cargo \
        ruby-devel \
