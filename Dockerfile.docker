@@ -26,7 +26,6 @@ RUN dnf -y update && dnf upgrade --refresh \
        rustc \
        mono-core \
        mono-devel \
-       ncurses-devel \
        mesa-libGLU \
        java-latest-openjdk-devel \
        git \
