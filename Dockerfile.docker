@@ -33,6 +33,7 @@ RUN dnf -y update && dnf upgrade --refresh \
        cppcheck \
        cargo \
        ruby-devel \
+       gnustep \
     && dnf -y clean all
 
 RUN gem install \
