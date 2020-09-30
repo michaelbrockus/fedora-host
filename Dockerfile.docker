@@ -28,12 +28,13 @@ RUN dnf -y update && dnf upgrade --refresh \
        mono-devel \
        mesa-libGLU \
        java-latest-openjdk-devel \
+       gtkmm3-devel \
+       gtk3-devel \
        git \
        ccache \
        cppcheck \
        cargo \
        ruby-devel \
-       gnustep \
     && dnf -y clean all
 
 RUN gem install \
