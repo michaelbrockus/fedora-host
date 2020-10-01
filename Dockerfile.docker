@@ -13,10 +13,8 @@ ADD run_tests.py .
 RUN dnf -y update && dnf upgrade --refresh \
     && dnf -y install \
        sudo \
-       python3 \
+       python3-devel \
        python3-pip \
-       python3-wheel \
-       python3-setuptools \
        gcc \
        gcc-c++ \
        gcc-objc \
