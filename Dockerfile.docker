@@ -28,6 +28,7 @@ RUN dnf -y update && dnf upgrade --refresh \
        java-latest-openjdk-devel \
        gtkmm30-devel \
        gtk3-devel \
+       gobject-introspection-devel \
        git \
        pkg-config \
        ccache \
