@@ -31,6 +31,7 @@ RUN dnf -y update && dnf upgrade --refresh \
        gtkmm3-devel \
        gtk3-devel \
        git \
+       pkg-config \
        ccache \
        cppcheck \
        cargo \
