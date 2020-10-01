@@ -28,7 +28,7 @@ RUN dnf -y update && dnf upgrade --refresh \
        mono-devel \
        mesa-libGLU \
        java-latest-openjdk-devel \
-       gtkmm3-devel \
+       gtkmm30-devel \
        gtk3-devel \
        git \
        pkg-config \
