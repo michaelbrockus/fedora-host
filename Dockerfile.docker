@@ -17,8 +17,6 @@ RUN dnf -y update && dnf upgrade --refresh \
        python3-pip \
        gcc \
        gcc-c++ \
-       gcc-objc \
-       gcc-objc++ \
        gcc-gfortran \
        gdc \
        rustc \
@@ -27,7 +25,6 @@ RUN dnf -y update && dnf upgrade --refresh \
        mesa-libGLU \
        java-latest-openjdk-devel \
        git \
-       pkg-config \
        ccache \
        cppcheck \
        cargo \
