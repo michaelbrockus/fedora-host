@@ -23,7 +23,6 @@ def test_have_build_systems():
     assert exe_exists('cmake') is True
     assert exe_exists('cargo') is True
     assert exe_exists('ninja') is True
-    assert exe_exists('rake') is True
 
 
 def test_have_ci_tools():
