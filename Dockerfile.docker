@@ -28,7 +28,7 @@ RUN dnf -y update && dnf upgrade --refresh \
        ccache \
        cppcheck \
        cargo \
-       libssl-dev \
+       openssl-devel \
     && dnf -y clean all
 
 RUN pip3 -q install --upgrade pip \
