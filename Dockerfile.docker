@@ -15,7 +15,7 @@ RUN dnf -y update && dnf upgrade --refresh \
        sudo \
        python3-devel \
        python3-pip \
-       gcc \
+       gcc-10 \
        gcc-c++ \
        gcc-gfortran \
        gdc \
@@ -28,6 +28,7 @@ RUN dnf -y update && dnf upgrade --refresh \
        ccache \
        cppcheck \
        cargo \
+       libssl-dev \
     && dnf -y clean all
 
 RUN pip3 -q install --upgrade pip \
