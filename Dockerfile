@@ -15,11 +15,8 @@ RUN dnf -y update && dnf upgrade --refresh \
        python3-pip \
        gcc \
        gcc-c++ \
-       gcc-gfortran \
        gdc \
        rustc \
-       mono-core \
-       mono-devel \
        mesa-libGLU \
        java-latest-openjdk-devel \
        git \
