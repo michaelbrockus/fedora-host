@@ -28,7 +28,7 @@ RUN dnf -y update && dnf upgrade --refresh \
 
 RUN pip3 -q install --upgrade pip \
     && python3 -m pip -q install \
-       meson==0.56.0 \
+       meson==0.56.2 \
        pyinstaller==4.0 \
        scan-build==2.0.19 \
        ninja==1.10.0.post2 \
