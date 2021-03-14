@@ -37,4 +37,6 @@ RUN pip3 -q install --upgrade pip \
        pytest==6.1.2 \
        pytest-mock==3.3.1 \
        pytest-xdist==2.1.0 \
-       pytest-benchmark==3.2.3
+       pytest-benchmark==3.2.3 \
+       discord.py==1.6.0 \
+       python-dotenv==0.15.0
