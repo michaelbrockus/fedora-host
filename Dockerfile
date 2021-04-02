@@ -13,6 +13,7 @@ RUN dnf -y update && dnf upgrade --refresh \
        sudo \
        python3-devel \
        python3-pip \
+       mono-devel \
        gcc \
        gcc-c++ \
        gdc \
